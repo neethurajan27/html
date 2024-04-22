@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+       .travel{
+        display: flex;
+        justify-content: center;
+       }
+
+       .div2{
+        height: 400px;
+        width: 400px;
+        background-color: black;
+        color: white;
+       }
+        
+       input[type="text"]{
+        background-color: transparent;
+        border-right-color: transparent;
+       }
+       input[type="submit"]{
+        background-color: greenyellow;
+        color: white;
+        padding: 5px;
+        border-radius: 5px;
+       }
+       input[type="submit"]:hover{
+        background-color: white;
+        color: black;
+       }
+       .div1{
+        box-shadow: 10px 10px 10px 5px black;
+       }
+       body
+       {
+        background-image: url(travel/travel.jpg) ;
+        background-repeat: no-repeat;
+        background-size: 100% 500px;
+       }
+         </style>
+</head>
+<body >
+    <div class="travel">
+   <div class="div1">
+    <img src="travel/travel.jpg" alt="" height="400px" width="400px">
+    </div>
+    <div class="div2">
+    <h1>REGISTRATION INFO</h1>
+    <form style="margin: 50px;">
+        <label for="">Firstname</label><br>
+        <input type="text" name="Firstname" pattern="[a-zA-z][5-15]"><br>
+        <label for="">address</label><br>
+        <input type="text"><br>
+        <label for="">zip code</label><br>
+        <input type="text"><br>
+        <label for="">state</label><br>
+        <select name="" id="">
+            <option value="">Choose</option>
+            <option value=""></option>
+        </select><br>
+        <label for>password</label><br>
+        <input type="password"><br>
+        <label for>email</label><br>
+        <input type="email"><br>
+        <input type="submit">
+
+    </form>
+    </div>
+    </div>
+</body>
+</html>
